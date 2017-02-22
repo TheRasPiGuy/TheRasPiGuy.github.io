@@ -1,2 +1,16 @@
-dpkg-deb -Zgzip -b Package
 dpkg-deb -Zgzip -b HandDrawn
+dpkg-deb -Zgzip -b TeamInstinct
+dpkg-deb -Zgzip -b TeamMystic
+dpkg-deb -Zgzip -b TeamValor
+dpkg-deb -Zgzip -b BootLogoTrio
+dpkg-deb -Zgzip -b TeamInstinctWhite
+dpkg-deb -Zgzip -b TeamMysticWhite
+dpkg-deb -Zgzip -b TeamValorWhite
+dpkg-deb -Zgzip -b BootLogoTrioWhite
+dpkg-deb -Zgzip -b TeamInstinct5
+dpkg-deb -Zgzip -b TeamMystic5
+dpkg-deb -Zgzip -b TeamValor5
+dpkg-deb -Zgzip -b BootLogoTrio5
+dpkg-deb -Zgzip -b UltimatePack
+dpkg-deb -Zgzip -b Glitched
+

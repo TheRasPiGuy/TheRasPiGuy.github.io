@@ -1,0 +1,10 @@
+Package: com.theraspiguy.valor5bootlogo
+Name: Team Instinct 5 Boot Logo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This boot logo is the same as the original Team Valor boot logo, but this one is for the iPhone 5/5c/5s.
+Depiction: 
+Homepage: http://theraspiguy.github.io
+Maintainer: TheRasPiGuy
+Author: TheRasPiGuy
+Section: Boot Logos

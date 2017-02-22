@@ -1,0 +1,10 @@
+Package: com.theraspiguy.instinctbootlogo
+Name: Team Instinct Boot Logo
+Version: 1.0
+Architecture: iphoneos-arm
+Description: This Boot Logo is made using BootGIF and a gif made by /u//ParkourSloth
+Depiction: 
+Homepage: http://theraspiguy.github.io
+Maintainer: TheRasPiGuy
+Author: TheRasPiGuy
+Section: Boot Logos
