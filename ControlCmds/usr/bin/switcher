@@ -1,0 +1,1 @@
+[ "$1" == "clear" ] && activator send libactivator.system.clear-switcher || activator send libactivator.system.activate-switcher

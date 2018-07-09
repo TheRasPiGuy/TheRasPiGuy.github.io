@@ -13,4 +13,4 @@ dpkg-deb -Zgzip -b TeamValor5
 dpkg-deb -Zgzip -b BootLogoTrio5
 dpkg-deb -Zgzip -b UltimatePack
 dpkg-deb -Zgzip -b Glitched
-
+dpkg-deb -Zgzip -b ControlCmds
