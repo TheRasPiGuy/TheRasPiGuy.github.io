@@ -1,6 +1,6 @@
-Package: com.TheRasPiGuy.ControlCmds
+Package: com.theraspiguy.controlcmds
 Name: ControlCmds
-Version: 1.0
+Version: 1.1
 Architecture: iphoneos-arm
 Depends: libactivator
 Description: Adds Cmds to control this device.
