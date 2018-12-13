@@ -84,7 +84,8 @@ img.crisp {
     image-rendering: crisp-edges
 }
 strong {
-    font-weight: bold
+    font-weight: bold;
+    font-size: medium
 }
 em {
     font-style: italic
