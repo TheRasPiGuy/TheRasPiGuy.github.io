@@ -5,9 +5,9 @@ Maintainer: TheRasPiGuy
 Installed-Size: 11870
 Filename: debs/X-ify.deb
 Size: 4112872
-MD5sum: e1413f7ef4f0b29232ae08633505824a
-SHA1: e17618abb05c9cfffbe6a274af737329626e504d
-SHA256: 501769fc91a10c9de0f525e59a0d423be6b44f03e87ca46dc87288d4548d68a5
+MD5sum: 8ada63b124c79fece7bf7676968c7de5
+SHA1: 2c3ac496315e60cc58558b6ae9c447060421d824
+SHA256: a41ec5be374d38584ce8640807afa5850e5e80c29437f130470b8b20a4cee020
 Section: Tweaks
 Description: Turn your iPhone into an iPhone X!
 Author: TheRasPiGuy
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/BootLogoTrio.deb
 Size: 11219094
-MD5sum: 757d67a3ae33289ae3b1b406320cb359
-SHA1: 311ff9bd90b40717a06fa8d2f1ec436317a6ac79
-SHA256: 7cbf976eddbb06997a0f6d6a5861bcbba5058a02605dd0d8c8f0d570632e6ab3
+MD5sum: 1bea662efdfe0de65e987a2bf5327159
+SHA1: 27e61d202b57d7c8952dd9835c1ba71f05ea9e25
+SHA256: b4f0e81f700d0bdfdc173a9792a0e3a1ac01a20339bcf4857e0d6e1a48f6fa84
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: For those who are lazy/can't decide which team, I made a package that basically install the Team Instinct (Yay!), Team Mystic, and the Team Valor boot logos all at once.
@@ -35,9 +35,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/BootLogoTrio5.deb
 Size: 10907968
-MD5sum: 48ba7fd4c701ff2584309477c8bb6461
-SHA1: ad7ba236d4a445081b6cae62e089cb20e69d730e
-SHA256: 7620333a6145b91277b3fd4224d47bdecad30cdc1e586a7089c99248e276f4d6
+MD5sum: b91a1261c8475ef295dc6be93a13d016
+SHA1: 12689a3ddd835833ecb31185c12cf037ac8af436
+SHA256: 9db988ab189ff894540b69ab77de8b01ea0ee64b41a054fce77a78eb5c256680
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This pack is the exact same as the original Boot Logo Trio, but for the iPhone 5/5c/5s.
@@ -50,30 +50,14 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/BootLogoTrioWhite.deb
 Size: 10972920
-MD5sum: 99d188473556108bda69185b21a20a38
-SHA1: 8f2eb53e5cf5f8e265e5ef01d4abfe6057c22f8b
-SHA256: 75250eceba3529bbfb62e3033477e3f9aeb2361fd5cde5f9c38d082fd05c33c4
+MD5sum: 5d7930f16b1afa83f6bcd029b913af7a
+SHA1: 74f6b77468a3ffc93f4b8b98b810dc32a4f201f4
+SHA256: 74f913bc750b48c8083b7848c129eeea79411bf8d862c79dc87d0321970059bc
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This pack is the exact same as the original Boot Logo Trio, but with the white backgrounds.
 Author: TheRasPiGuy
 Name: The White Boot Logo Trio
-
-Package: com.theraspiguy.controlcmds
-Version: 1.0
-Architecture: iphoneos-arm
-Maintainer: TheRasPiGuy
-Installed-Size: 126
-Depends: libactivator
-Filename: debs/ControlCmdsBundle.deb
-Size: 4844
-MD5sum: ff3deb32852cd612230b9988dc3d370b
-SHA1: 2fbb5c8027e8d32f890bc76638750f673525b511
-SHA256: 52136ba84ca64bfda528f8b4e2ff12ba9f33df31aa8b1d2bbb54f2f2d1371b26
-Section: Tweaks
-Description: Test Preference Bundle for ControlCmds.
-Author: TheRasPiGuy
-Name: ControlCmdsBundle
 
 Package: com.theraspiguy.controlcmds
 Version: 1.22
@@ -83,14 +67,30 @@ Installed-Size: 182
 Depends: libactivator
 Filename: debs/ControlCmds.deb
 Size: 52516
-MD5sum: aa4f51eab09a87465f23f02b5bd531d2
-SHA1: e8bfc6949113986ae4a4b1f2a81e67cbfb0ee7fb
-SHA256: 642002d6fb35659df6dc0025efa5bdc39b83ae80a3fd6367787af623241d2ea8
+MD5sum: ffc7602b652bcdf78ab49d1a83bc774f
+SHA1: 8c576623fe880662790c9d0a3afbb29d7952c743
+SHA256: 2c5d2eeca9471a96abaa7ffbdf4ac34a182a6df6b037143272e1d0642e395f49
 Section: Tweaks
 Description: Adds Cmds to control this device.
 Author: TheRasPiGuy
 Depiction: http://theraspiguy.github.io/depictions/com.theraspiguy.controlcmds/index.html
 Name: ControlCmds
+
+Package: com.theraspiguy.controlcmdsbundle
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: TheRasPiGuy
+Installed-Size: 126
+Depends: libactivator
+Filename: debs/ControlCmdsBundle.deb
+Size: 4848
+MD5sum: cb10b8c2df462fd0128b6a82bf200da1
+SHA1: df0e79333aedb0abe00f3bd93dae972b2506014f
+SHA256: 784eb3ae894a91c6f9dda0700b6afee8513d83cef6be5777bc584c7fc37c6e1b
+Section: Tweaks
+Description: Test Preference Bundle for ControlCmds.
+Author: TheRasPiGuy
+Name: ControlCmdsBundle
 
 Package: com.theraspiguy.glitched
 Version: 1.0
@@ -98,9 +98,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/Glitched.deb
 Size: 1091978
-MD5sum: cd86f8d207e9fd6101b13e196ebc8026
-SHA1: 9536e211fbfa70ee90336156cb8dda9018569187
-SHA256: 93ca97199c1dfda141e60b43dddb239cdf5ea1a5e7f82bcb277af7706790be28
+MD5sum: dd72433ceb5af2506d387c99d5e48d6d
+SHA1: 9971c4f7587f19b1455ce1a27417ff2c0ffa2974
+SHA256: 5ffd963101946e05caa045aa7478fc66c94dba6c819851718fe17090e5c13eb0
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo was made using BootGIF, as always, and I have NO idea who made the gif, but I found it on Google, so, yeah.
@@ -113,9 +113,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/HandDrawn.deb
 Size: 363866
-MD5sum: eef80ffa9b1be606879f2755d0f4bccb
-SHA1: 0c58a0bbbdbbde9387300508d83ad2ffe5a5ef2c
-SHA256: 62674a1a15c62d22a39183188db041887fda4bbe5f504612d130f2314baabf80
+MD5sum: dd28788e23d4ebd1d414cac3d8a07c51
+SHA1: e15d8f3980bd5465341552cd545bdceadeea30f9
+SHA256: 08d15564cc9356cca11ca6c1a5dfe4987eab7232a12fc8a8f75341f9592b6d9f
 Section: Themes
 Homepage: http://theraspiguy.github.io
 Description: Hand Drawn is a theme that includes Hand Drawn Icons (NOT DRAWN BY ME). Credit for the icons goes to Fast Icon Design on iconarchive.com
@@ -128,9 +128,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamInstinct5.deb
 Size: 7269432
-MD5sum: 7bf946a56ba3b5e6ef7c105f2a8e4758
-SHA1: 7e4bae8dc1bcaf37130e404eae8a59debfa0148c
-SHA256: fee278e6bba1d508bff2cb3a598c0b66364ff8a75e5afcdd2304e8871cd472cb
+MD5sum: f816d59efc89be0ac2502e66637eb987
+SHA1: a376ff9598a426a12bd91db66642f2e5d04425e9
+SHA256: f73ecd852fd18689e351ad116a7563387f9787a832c57826e802ab1625cc5e8c
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Instinct boot logo, but this one is for the iPhone 5/5c/5s.
@@ -143,9 +143,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamInstinct.deb
 Size: 7267908
-MD5sum: c7d85330b8d31df2362376b47d8e9e18
-SHA1: ee72337b9ce8354df3f9bf3d4d0e828fbf3b9ffc
-SHA256: 0c10e2d835b3118e10138a617ed8529d3997209cd3bd9b788746b329938f215c
+MD5sum: 7480bd21576ea382937586f60b8d1a3a
+SHA1: 97c24c51ef5b70e2290c6dc6472a6be19a9c0ca8
+SHA256: 3cea6482884f5ead631f60c3244e0a16c97e0e533814ee17103a8af3ed19d12b
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This Boot Logo is made using BootGIF and a gif made by /u//ParkourSloth
@@ -158,9 +158,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamInstinctWhite.deb
 Size: 7286052
-MD5sum: ab38cbffa82df8ce7ae6b022c25dbcfc
-SHA1: a16aa40ea8126b3ae2d5084eab3286da6f7e6af9
-SHA256: 1d6c2419209e4fb34c47f9e237b15342e2602ac5d485bacb0db1a1bec82b9937
+MD5sum: 6c1083ae57df0c3c222b786b696be408
+SHA1: 698eb1e8acdaa7a19f30abd77dcfbe02518bdd1e
+SHA256: 9cd5a50d4c05117ecca842cc732f3c4aaeb07a18111601b3cf4a437d7ff89265
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Instinct boot logo, but instead of the black background, it has a white background.
@@ -173,9 +173,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamMystic5.deb
 Size: 2664392
-MD5sum: 63121041e199dd3044c2d2e84b2c4f61
-SHA1: a0bc203f07b8dec3b163ec3686069aa4a925ce01
-SHA256: 2cf7e2207f2a667811580a963ccdbf9e2bf15de39f3df261bcb1fc9e136eb4c2
+MD5sum: 862e05daceecba6d4a7851703b35247f
+SHA1: e33d45ef31b36dfbcd0da779808b70c8d5a3c2e5
+SHA256: 99a64453063225f10014a67accf3efbbbc70efa83772163865bbaaa6b758da66
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Mystic boot logo, but this one is for the iPhone 5/5c/5s.
@@ -188,9 +188,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamMystic.deb
 Size: 2971024
-MD5sum: 80670925c3aeafb9c881e8cffafecf86
-SHA1: 96acd402cb18f546447056bef88a3ea08552d250
-SHA256: b5f0df9d5a5f95642d4c987313966e23988b2897e7a52efdb03eb75482c5b78c
+MD5sum: 9fdea2e982d27ca81d8c6bcf64ddc679
+SHA1: 66f8b1ba2ea5aeab8c290dfaf774bf412cf8c3cc
+SHA256: df89f97e3069f550ebd4f5c0f3043cf4c24ad8d8a0fa155dc7b18334fc2b874b
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the Team Instinct boot logo, but Team Mystic. Again, this boot logo is made using BootGIF, but the GIF is made by /u/terkoiz
@@ -203,9 +203,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamMysticWhite.deb
 Size: 2683800
-MD5sum: af52ff936e36a0a477f2fe4734d43ff0
-SHA1: 1ce7ec07f028f54f2710d2e4e9acc126e245cf7e
-SHA256: 5dc5582d5bc12f3a72d06eaaf636c9ec49b443b266c00677210b9816ed3fdd01
+MD5sum: 30c77ae2be299075d4449e0ca8ba0a70
+SHA1: 30fa9c0f9f9984725aaa3fe59add796ee6eee717
+SHA256: 2f3fcbce11833be9b6699e54acae7686275495597a2c4170bbf911a351947ee3
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Mystic boot logo, but instead of the black background, it has a white background.
@@ -218,9 +218,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/UltimatePack.deb
 Size: 33112558
-MD5sum: d27a70dee7dad1d3a28a7e4b76b48ff7
-SHA1: 90c2c54e825a6b76d23fc0070275fa6e71c83b3c
-SHA256: 1718ba14107778f68eba7dedd3c36fee621b15314a81bfecb1514bb74beb8cae
+MD5sum: 5dbb71d7a49ec1dc71b03e2f50e3a641
+SHA1: 4e27401267a89b9c4991d788dea793bc5ad7d11d
+SHA256: de3ac0a04aac87a639bbe301e785defeae306c3e9c157fb4376c1b9d6586bfaf
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This pack includes ALL of the Team Instinct/Mystic/Valor boot logos, including the White Backgrounds AND the iPhone 5/5c/5s versions.
@@ -233,9 +233,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamValor5.deb
 Size: 981312
-MD5sum: eb1ee45c4b3f4679fd269c25760346b8
-SHA1: 11c4de209cb5436881521b84c20b1fd599c3bcc1
-SHA256: 940e3fae8740b604f64c649b19e1d0f1e4626b7e799b034b3a5651d2e0d541d2
+MD5sum: fc2634b4d7726e0b9427c7963afb2abe
+SHA1: 276d973b734aa2eb4b561e7f818dc3a15b0bafdd
+SHA256: da0434a8806d67d482810330e388fa86e343ba1655adafbed6f7e7a1fab4980c
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Valor boot logo, but this one is for the iPhone 5/5c/5s.
@@ -248,9 +248,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamValor.deb
 Size: 981334
-MD5sum: b195be9d0c413d1a6eb0ad74fdbd9353
-SHA1: 8b76c70448929f704fe7971ecd9942b8b1401378
-SHA256: 936b0069112ce821854220f4d00fefda40757366073414473f17398c75a59011
+MD5sum: 5a6421b5be549f4c0c30a7b7d3473117
+SHA1: bd8021f1146b8f1509478fa7709d44c2a5dfb9b0
+SHA256: de673df50eb12f9cf033125157071aede8cce928015d082adce8a81442920e77
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: Obviously, if I made the Team Instinct and the Team Mystic boot logos, I would have to complete the trio by adding the Team Valor boot logo. Again, made using BootGIF, but the gif was made by /u/WoodenMarker.
@@ -263,9 +263,9 @@ Architecture: iphoneos-arm
 Maintainer: TheRasPiGuy
 Filename: debs/TeamValorWhite.deb
 Size: 1013696
-MD5sum: 3082b48ed72bc18cf73ea04541eef4c5
-SHA1: 659df3277cc9493df0567ff0702d05f9fb9816e8
-SHA256: d0a86686244ec0e45728e0a6a8a946876bbb32bc7fc69ec2d7bfd247d6281a24
+MD5sum: 53705cfd6d1f1f20d564591ba3ea61b2
+SHA1: 985f1ca9ee67a94afb4919e6e3d338d461452331
+SHA256: 490b5727216e6d7aeea33420dbb38eddcb9bd93f82d01823186d0a258c6da159
 Section: Boot Logos
 Homepage: http://theraspiguy.github.io
 Description: This boot logo is the same as the original Team Valor boot logo, but instead of the black background, it has a white background.
