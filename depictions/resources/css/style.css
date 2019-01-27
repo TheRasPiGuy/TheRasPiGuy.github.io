@@ -11,7 +11,7 @@
 	--input-font: ;
 	--hype-color: #425fb4;
 	--tap-color: rgba(0, 0, 0, .5);
-	--font: 'Baloo', sans-serif;
+	--font: 'Baloo', cursive;
 }
 panel>input[type="submit"],
 fieldset>a>div>div>input[type="checkbox"],
